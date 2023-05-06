@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(ris.jpg);
+    background-size: cover;
+height: 100vh;
+}
+section.chat__section{
+  color: #fef2f2;
+    background-image:linear-gradient(rgba(2, 44, 134, 0.313),rgba(208, 225, 241, 0.112));
+    max-width: 955px;
+    border:2px solid black;
+    margin: auto;
+    height: 86vh;
+    padding: 33px;
+    overflow: scroll;
+    margin-bottom: 23px;
+    overflow-y: auto;
+    box-shadow: 0 10px 15px -3px black , 0 4px 0px -2px;
+}
+.brand{
+    padding: 24px;
+    background: rgba(17, 88, 201, 0.486);
+    display: flex;
+    align-items: center;
+    color: #eef1f9;
+}
+.brand h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #444;
+    margin-left: 10px;
+}
+.message__area{
+    height: 500px;
+    color: #000;
+    background-color: #f5efef3f;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+textarea{
+    text-align: center;
+    width: 152px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 54px;
+}
+.message{
+padding: 20px;
+border-radius: 4px;
+margin-bottom: 40px;
+max-width: 300px;
+position: relative;
+background-color: rgba(240, 255, 255, 0.598);
+width: fit-content;
+padding: 10px;
+margin: 17px 12px;
+border-radius: 10px;
+}
+.incomeing{
+color: #101010;
+width: 24%;
+padding: 10px;
+margin: 17px 12px;
+border-radius: 10px;
+}
+.outgoing{
+    width:fit-content;
+    color: #010800;
+    margin-left: auto;
+}
+.message h4{
+    width:fit-content;
+    left: 0;
+    color: #000d08;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    
+    
+}
+.message h1{
+width:fit-content;
+color: #140000;
+padding: 10px;
+border-radius: 10px;
+font-size: 24px;
+}
